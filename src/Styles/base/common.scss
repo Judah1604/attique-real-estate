@@ -1,0 +1,25 @@
+
+
+body {
+    font-family: $font-work-sans;
+    background-color: rgb(241, 241, 241);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-lora;
+}
+
+.logo {
+    font-family: $font-rubik;
+    font-weight: 500;
+}
+
+.btn-dark {
+    padding: 15px 30px;
+    background-color: #24445E;
+    border-color: #24445E;
+}
+
+.slanted {
+    font-weight: 300;
+}

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Rubik:wght@500&family=Work+Sans:wght@600&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(241, 241, 241);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", serif;
+}
+
+.logo {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.btn-dark {
+  padding: 15px 30px;
+  background-color: #24445E;
+  border-color: #24445E;
+}/*# sourceMappingURL=common.css.map */
