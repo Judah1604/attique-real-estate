@@ -12,7 +12,7 @@ function Navbar() {
 					<a href="#" className="nav-link">Inclusion List</a>
 				</div>
                 <div className="btn btn-dark">
-                    Get in touch
+                    Get Started
                 </div>
 			</div>
 		</div>

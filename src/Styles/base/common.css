@@ -2,9 +2,15 @@
 body {
   font-family: "Work Sans", sans-serif;
   background-color: rgb(241, 241, 241);
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Lora", serif;
 }
 
@@ -17,4 +23,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 30px;
   background-color: #24445E;
   border-color: #24445E;
+  transition: 0.3s ease;
+}
+.btn-dark:hover {
+  background-color: #2d5270;
+  border-color: #2d5270;
+}
+
+.btn-light {
+  padding: 15px 30px;
+}
+
+.slanted {
+  font-weight: 300;
 }/*# sourceMappingURL=common.css.map */
