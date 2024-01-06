@@ -6,8 +6,18 @@
     color: rgb(255, 255, 255);
     padding: 70px;
     border-radius: 30px;
+    margin-top: 30px;
+    position: relative;
 
     h1 {
         font-size: 3.5em;
+    }
+
+    img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 700px;
+        margin-right: 20px;
     }
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Rubik:wght@500&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Rubik:wght@500&family=Work+Sans:wght@500;600&display=swap");
 body {
   font-family: "Work Sans", sans-serif;
   background-color: rgb(241, 241, 241);
@@ -16,7 +16,6 @@ h6 {
 
 .logo {
   font-family: "Rubik", sans-serif;
-  font-weight: 500;
 }
 
 .btn-dark {
@@ -32,8 +31,4 @@ h6 {
 
 .btn-light {
   padding: 15px 30px;
-}
-
-.slanted {
-  font-weight: 300;
 }/*# sourceMappingURL=common.css.map */

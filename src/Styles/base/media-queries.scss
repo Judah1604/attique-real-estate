@@ -1,5 +1,100 @@
-// For Tablet
+// For Laptops
+
+@media screen and (max-width: 1024px) {
+
+    .hero {
+        h1 {
+            font-size: 2.7em !important;
+        }
+
+        img {
+            width: 620px !important;
+        }
+    }
+
+    .objective {
+        .overlay.left {
+            left: -50%;
+        }
+
+        .overlay.right {
+            right: -50%;
+        }
+    }
+}
+
+// For Tablets
 
 @media screen and (max-width: 768px) {
-    
+
+    .hero {
+        img {
+            z-index: 1;
+        }
+
+        .text {
+            z-index: 2;
+            width: 100%;
+        }
+    }
+
+    .objective {
+        margin: 50px auto !important;
+
+        .overlay.left {
+            display: none;
+        }
+
+        .overlay.right {
+            display: none;
+        }
+
+        .text {
+            width: 80% !important;
+        }
+    }
+
+    .inclusions {
+        padding: 90px !important;
+
+        .text {
+            width: 100% !important;
+        }
+    }
+}
+
+// For Phones
+
+@media screen and (max-width: 425px) {
+
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .menu-icon {
+        display: flex !important;
+    }
+
+    .container {
+
+        .nav,
+        .btn {
+            display: none;
+        }
+    }
+
+    .hero {
+        padding: 50px !important;
+        width: 97%;
+        margin-top: 0 !important;
+    }
+
+    h1 {
+        font-size: calc(2.1rem + 1.5vw) !important;
+    }
+
+    .inclusions {
+        padding: 50px !important;
+        width: 97%;
+    }
 }

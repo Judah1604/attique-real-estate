@@ -1,11 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Rubik:wght@500&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Rubik:wght@500&family=Work+Sans:wght@500;600&display=swap");
 .hero {
   background-image: linear-gradient(90deg, #24445E, #5588b7);
   margin: auto;
   color: rgb(255, 255, 255);
   padding: 70px;
   border-radius: 30px;
+  margin-top: 30px;
+  position: relative;
 }
 .hero h1 {
   font-size: 3.5em;
+}
+.hero img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 700px;
+  margin-right: 20px;
 }/*# sourceMappingURL=hero.css.map */
