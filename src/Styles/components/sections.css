@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Rubik:wght@500&family=Work+Sans:wght@500;600&display=swap");
 .objective {
   margin: 300px auto;
   text-align: center;
@@ -60,4 +61,16 @@
 .inclusions .text h1 {
   font-size: 3.5em;
   margin-bottom: 15px;
+}
+
+footer {
+  background-color: #24445E;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=sections.css.map */

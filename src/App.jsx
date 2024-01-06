@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Objective from "./components/Objective";
 import Inclusions from "./components/Inclusions";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
             <HeroSection />
             <Objective />
             <Inclusions />
+            <Footer />
 		</>
 	);
 }

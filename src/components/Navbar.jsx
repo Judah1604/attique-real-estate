@@ -33,7 +33,7 @@ function Navbar() {
 					</div>
 				</div>
 			</div>
-			<div className="menu">
+			<div className={isActive ? "menu active" : 'menu'}>
 				<div className="nav">
 					<a href="#" className="nav-link">
 						Home
