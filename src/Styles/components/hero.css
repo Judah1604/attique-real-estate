@@ -11,10 +11,14 @@
 .hero h1 {
   font-size: 3.5em;
 }
+.hero .text {
+  z-index: 2;
+}
 .hero img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 700px;
+  width: 800px;
   margin-right: 20px;
+  z-index: 1;
 }/*# sourceMappingURL=hero.css.map */
